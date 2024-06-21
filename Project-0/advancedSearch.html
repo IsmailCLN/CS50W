@@ -16,25 +16,24 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="imageSearch.html">Image Search</a>
+            <a class="nav-link" href="search.html">Search</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="advancedSearch.html">Advanced Search</a>
+            <a class="nav-link" href="imageSearch.html">Image Search</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <form action="https://www.google.com/search"
+  <form action="https://www.google.com/search" name="f"
     class="container d-flex justify-content-center align-items-center min-vh-75 flex-column">
     <img src="Google-Logo.png" alt="google-logo" class="w-25">
-    <input type="text" name="q" class="form-control rounded-pill mb-3 form-control w-50">
-    <div>
-      <input type="submit" value="Google Search" class="btn btn-light">
-      <input type="submit" value="I'm Feeling Lucky" class="btn btn-light"
-        onclick="this.form.action='https://www.google.com/search'; this.form.q.name='btnI'; return true;">
-    </div>
+    <input type="text" name="as_q" class="rounded mb-3 form-control w-50" placeholder="all these words">
+    <input type="text" name="as_epq" class="rounded mb-3 form-control w-50" placeholder="this exact word or phrase">
+    <input type="text" name="as_oq" class="rounded mb-3 form-control w-50" placeholder="any of this words">
+    <input type="text" name="as_eq" class="rounded mb-3 form-control w-50" placeholder="none of these words">
+    <input type="submit" value="Advanced Search" class="btn btn-primary">
   </form>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

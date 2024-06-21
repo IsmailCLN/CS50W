@@ -6,22 +6,22 @@
 
 Your website must meet the following requirements:
 
-- [ ] Your website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
-- [ ] On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
-- [ ] On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
-- [ ] Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
-- [ ] On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
-- [ ] On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
-- [ ] Find pages with… “all these words:”
-- [ ] Find pages with… “this exact word or phrase:”
-- [ ] Find pages with… “any of these words:”
-- [ ] Find pages with… “none of these words:”
-- [ ] Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
-- [ ] Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
-- [ ] When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.
-- [ ] Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
-- [ ] You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.
-- [ ] The CSS you write should resemble Google’s own aesthetics.
+- [x] Your website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
+- [x] On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
+- [x] On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
+- [x] Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
+- [x] On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
+- [x] On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
+- [x] Find pages with… “all these words:”
+- [x] Find pages with… “this exact word or phrase:”
+- [x] Find pages with… “any of these words:”
+- [x] Find pages with… “none of these words:”
+- [x] Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
+- [x] Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
+- [x] When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.
+- [x] Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
+- [x] You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.
+- [x] The CSS you write should resemble Google’s own aesthetics.
 
   ### Hints
 
@@ -36,9 +36,7 @@ Your website must meet the following requirements:
 
 By way of example, for this project that means that if the grading staff visits https://github.com/me50/USERNAME/blob/web50/projects/2020/x/search/index.html (where USERNAME is your own GitHub username as provided in the form, below) your submission for index.html for this project should be what appears. If it doesn’t, reorganize your repository as needed to match this paradigm.
 
-If you’ve installed submit50, execute
-submit50 web50/projects/2020/x/search
-Otherwise, using Git, push your work to https://github.com/me50/USERNAME.git, where USERNAME is your GitHub username, on a branch called web50/projects/2020/x/search.
+using Git, push your work to https://github.com/me50/USERNAME.git, where USERNAME is your GitHub username, on a branch called web50/projects/2020/x/search.
 
 Record a screencast not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. Your URL bar must remain visible throughout your demonstration of the project. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. Upload that video to YouTube (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. This is not optional, videos without timestamps in their description will be automatically rejected.
 Submit this form.
